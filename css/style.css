@@ -331,19 +331,6 @@ margin: 0 auto;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .art{
 text-align: center;
 }
@@ -461,11 +448,6 @@ margin-bottom: 70px;
 
 
 
-
-
-
-
-
 .phone_call{
   z-index: 999;
   position: fixed;
@@ -491,6 +473,16 @@ margin-bottom: 70px;
 
 }
 
+
+
+.footer{
+  text-align: center;
+  background:#222C34;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+}
 
 
 @media screen and (max-width: 958px){
@@ -628,6 +620,11 @@ padding-bottom: 50px;
   }
 }
 
+@media screen and (max-width: 1024px){
+  .wrapper {
+padding-bottom: 40px;
+}
+}
 
 
 
@@ -670,19 +667,6 @@ padding: 5px 10px 5px 10px;
 
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
