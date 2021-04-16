@@ -335,6 +335,7 @@ margin: 0 auto;
 text-align: center;
 }
 
+
 .container{
   text-align: center;
   margin: 0 auto;
@@ -443,6 +444,13 @@ margin-bottom: 70px;
 }
 }
 
+@media screen and (max-width: 384px){
+  .description {
+text-transform: lowercase;
+}
+}
+
+
 
 
 
@@ -533,9 +541,9 @@ padding-left: 20px;
 
 
 
-@media screen and (max-width: 355px){
+@media screen and (max-width: 360px){
   .block_par {
-padding-bottom: 20px;
+padding-bottom: 10px;
 }
 }
 
@@ -667,7 +675,6 @@ padding: 5px 10px 5px 10px;
 
 }
 }
-
 
 
 
